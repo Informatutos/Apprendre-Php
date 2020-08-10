@@ -1,6 +1,12 @@
 <?php
 
+function mafonction1(){
+    mafonction2();
+}
 
+function mafonction2(){
+    echo "Doe";
+}
 
 function mafonction(int $age, ?string $nom):string
 {
